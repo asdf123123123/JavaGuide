@@ -79,7 +79,7 @@ root@eaf70fc620cb:/apache-zookeeper-3.5.8-bin# cd bin
 [zk: 127.0.0.1:2181(CONNECTED) 34] create /node1 “node1”
 ```
 
-通过 `create` 命令在根目录创建了 node1 节点，与它关联的内容是数字 123
+通过 `create` 命令在node1节点创建了子节点 node1 节点，与它关联的内容是数字 123
 
 ```shell
 [zk: 127.0.0.1:2181(CONNECTED) 1] create /node1/node1.1 123
